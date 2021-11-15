@@ -1,0 +1,63 @@
+/* generics */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.clearfix{
+    display: table;
+    content:'';
+    clear: both;
+}
+
+/* contenuto principale */
+
+#logo{
+    height: 100px;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #C2C2C2;
+}
+.li{
+    list-style-type: none;
+    display:inline;
+}
+
+.spotlight{
+    text-align: center;
+    
+}
+
+/* contenuto float */
+
+.container{
+    max-width: 1200px;
+    margin:0%;
+}
+
+.header{
+}
+
+.row{
+    margin: 0 -10px
+  
+}
+.side-bar{
+    float: left;
+    width: calc(25% - 20px);
+    
+
+}
+
+.main-content{
+    float: left;
+    width: calc(50% - 20px);
+    
+}
