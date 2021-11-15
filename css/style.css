@@ -13,51 +13,54 @@
     content:'';
     clear: both;
 }
-
+.row{
+}
 /* contenuto principale */
+
+/* body{
+    background: goldenrod;
+    
+} */
 
 #logo{
     height: 100px;
     margin: 10px;
 }
 
+ul{
+    display:inline;
+}
+
 a{
     text-decoration: none;
     color: #C2C2C2;
 }
-.li{
-    list-style-type: none;
-    display:inline;
-}
 
 .spotlight{
-    text-align: center;
-    
+;
 }
 
-/* contenuto float */
+/* contenuto principlae in float */
 
-.container{
-    max-width: 1200px;
-    margin:0%;
-}
 
-.header{
-}
-
-.row{
-    margin: 0 -10px
-  
-}
-.side-bar{
+.col{
     float: left;
-    width: calc(25% - 20px);
+}
+
+.col-center{
+    width: calc(50% - 10px);
     
+}
+
+.col-side{
+    width: calc(25% - 10px);
 
 }
 
-.main-content{
-    float: left;
-    width: calc(50% - 20px);
-    
+
+/* footer */
+
+footer{
+   font-size: 30px;
+   text-align: center;
 }
